@@ -15,6 +15,9 @@ h1, p{
  font-size: 25px;
  font-weight: bold; 
 }
+::placeholder{
+    padding-left: 7px;
+}
 hr{
     max-width: 100%;
 }
@@ -67,4 +70,15 @@ textarea{
     font-size: large;
     padding: 15px;
     max-width: 93%;
+}
+select{
+    padding-left: 7px;
+}
+button{
+    display: block;
+    margin: 40px auto;
+    padding: 15px;
+    font-size: 23px;
+    background: #d0d0d5;
+    border: 3px solid #3b3b4f;
 }
